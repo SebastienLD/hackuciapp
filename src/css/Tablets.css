@@ -1,0 +1,222 @@
+@media only screen and (min-device-width: 600px) and (max-device-width: 1000px){
+    /* phones */
+
+
+    .Form {
+        background-color: white;
+        border-radius: 3%;
+        max-height: 30vh;
+        width: 70%;
+        height: 90%;
+        top: 10%;
+        left: 15%;
+        min-width: 300px;
+        min-height: 415px;
+        position: relative;
+        box-shadow: 0 0 .6rem rgb(0, 0, 0, .5);
+      }
+      
+      .peter {
+        width: 40%;
+        position: relative;
+        left: 30%;
+        animation-name: petrDance;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes petrDance {
+        0% {transform: translate(2rem, -2rem);}
+        25% {transform: translate(2rem, 2rem);}
+        50% {transform: translate(-2rem, 2rem);}
+        75% {transform: translate(-2rem, -2rem);}
+        100%{transform: translate(2rem, -2rem);}
+      }
+      
+      button{
+        background-color: #ff7b5c;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        left: 66%;
+        top: 3vh;
+        font-weight: lighter;
+        font-size: 80%;
+        text-decoration: none;
+        width: 25%;
+        border: none;
+        border-radius: .7rem;
+        padding: .3rem;
+      }
+      
+      button:hover {
+        opacity: 50%;
+      }
+      
+      button:active {
+        outline: white;
+      }
+      
+      
+      .lInput {
+        text-align: left;
+        position: relative;
+        left: 8%;
+        height: 10%;
+        top: 1vh;
+        padding: .5rem;
+      }
+      
+      input {
+        width: 80%;
+        height: auto;
+        font-size: 80%;
+        border-radius: 1vh;
+        border: .07rem solid;
+        position: relative;
+        top: 1vh;
+        padding: .4rem;
+      }
+      
+      .ffact {
+        width: 80%;
+        font-size: 100%;
+        top: 1vh;
+        resize: none;
+        border-radius: 1vh;
+        border: 0.07rem solid;
+        position: relative;
+        padding: .4rem;
+      }
+      
+      label {
+        font-weight: bold;
+      }
+      
+      .header {
+        text-align: center;
+        font-size: 140%;
+        position: relative;
+        top: 4vh;
+        padding: .3rem;
+      }
+      
+      body {
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(to right, #ff7b5c, #ff6c81);
+        flex-wrap: wrap;
+      }
+      
+    
+}
+
+@media only screen and (orientation:landscape) and (max-device-width: 1000px){
+    .Form {
+        background-color: white;
+        border-radius: 3%;
+        max-width: 40vw;
+        height: auto;
+        min-width: 300px;
+        min-height: 415px;
+        position: relative;
+        left: 10%;
+        top: 15%;
+        box-shadow: 0 0 .6rem rgb(0, 0, 0, .5);
+      }
+      
+      .peter {
+        width: 30%;
+        position: relative;
+        left: 60%;
+        bottom: 35vh;
+        animation-name: petrDance;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes petrDance {
+        0% {transform: translate(2rem, -2rem);}
+        25% {transform: translate(2rem, 2rem);}
+        50% {transform: translate(-2rem, 2rem);}
+        75% {transform: translate(-2rem, -2rem);}
+        100%{transform: translate(2rem, -2rem);}
+      }
+      
+      button{
+        background-color: #ff7b5c;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        left: 66%;
+        top: 3vh;
+        font-weight: lighter;
+        font-size: 80%;
+        text-decoration: none;
+        width: 25%;
+        border: none;
+        border-radius: .7rem;
+        padding: .3rem;
+      }
+      
+      button:hover {
+        opacity: 50%;
+      }
+      
+      button:active {
+        outline: white;
+      }
+      
+      
+      .lInput {
+        text-align: left;
+        position: relative;
+        left: 8%;
+        height: 10%;
+        top: 1vh;
+        padding: .5rem;
+      }
+      
+      input {
+        width: 80%;
+        height: auto;
+        font-size: 80%;
+        border-radius: 1vh;
+        border: .07rem solid;
+        position: relative;
+        top: 1vh;
+        padding: .4rem;
+      }
+      
+      .ffact {
+        width: 80%;
+        font-size: 100%;
+        top: 1vh;
+        resize: none;
+        border-radius: 1vh;
+        border: 0.07rem solid;
+        position: relative;
+        padding: .4rem;
+      }
+      
+      label {
+        font-weight: bold;
+      }
+      
+      .header {
+        text-align: center;
+        font-size: 140%;
+        position: relative;
+        top: 4vh;
+        padding: .3rem;
+      }
+      
+      body {
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(to right, #ff7b5c, #ff6c81);
+        flex-wrap: wrap;
+      }
+      
+      
+}
