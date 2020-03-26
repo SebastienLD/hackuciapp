@@ -111,7 +111,7 @@
     
 }
 
-@media only screen and (orientation:landscape) and (max-device-width: 1000px){
+@media only screen and (orientation:landscape) and (min-device-width: 600px) and (max-device-width: 1000px){
     .Form {
         background-color: white;
         border-radius: 3%;
